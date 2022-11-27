@@ -13,8 +13,14 @@ get the current position and next position, check if the current position is gre
 - Stable sorting algorithm
 
 ## Insertion sorting
-Verifica se o valor da posição mais a esquerda é maior que a posição atual, se for maior, será trocado de lugar.
 Check if the value of the leftmost position is grater than the current position, if greater, it will be replaced.
 
 - Complexity: O($n^2$)
 - Stable sorting algorithm
+
+## Merge sorting
+
+Uses the conquer and divide strategy, it divides the array into smaller pieces as much as possible. ending this, the arrays are sorted and joined, starting from the smallest and ending at the original array size with the  sorted values.
+
+- Complexity: O(n*log(n))
+- Stable sorting algoritm
